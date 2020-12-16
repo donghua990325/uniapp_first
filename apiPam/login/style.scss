@@ -1,0 +1,59 @@
+.login {
+    width: 100%;
+    height: 70vh;
+    // height: 100vh;
+    // background: #fff;
+    // box-sizing: border-box;
+    // padding-top: 1rpx;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+
+    // .logo {
+    //     width: 230rpx;
+    //     height: 80rpx;
+    //     // background: url('https://imgt1.oss-cn-shanghai.aliyuncs.com/ecAllRes/images/logo.png') no-repeat;
+    //     background-size: 100% 100%;
+    //     margin: 200rpx auto 180rpx auto;
+    // }
+	
+	
+	.header {
+	    width: 270upx;
+	    height: 80upx;
+	    // box-shadow:0upx 0upx 60upx 0upx rgba(0,0,0,0.1);
+	    // border-radius:50%;
+	    // background-color: #000000; 
+	    margin-top: 128upx;
+	    margin-bottom: 72upx;
+	    margin-left: auto;
+	    margin-right: auto;
+	}
+	
+	.header image {
+	    width: 270upx;
+	    height: 80upx;
+	    // border-radius:50%;
+	}
+	
+	
+    .login-btn {
+        text-align: center;
+        background: #A53533;
+        color: #fff;
+        border: 1rpx solid #A53533;
+        // background: #b4a078;
+        // background: linear-gradient(to right, rgba(0,0,0,0.7), rgba(0,0,0,0.6));
+        width: 90%;
+        height: 80rpx;
+        line-height: 80rpx;
+        font-size: 28rpx;
+        margin: 32rpx auto;
+    }
+
+    .login-btn.number {
+        background: #fff;
+        color: #A53533;
+        border: 1rpx solid #9F8286;
+    }
+}

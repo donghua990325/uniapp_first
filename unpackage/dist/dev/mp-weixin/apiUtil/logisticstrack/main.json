@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "物流跟踪",
+  "usingComponents": {
+    "track-node": "/components/etherealwheat-track/trackNode"
+  }
+}

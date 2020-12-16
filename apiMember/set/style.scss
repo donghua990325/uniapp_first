@@ -1,0 +1,59 @@
+page {
+    background: $page-color-base;
+}
+
+.container {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+.list-cell {
+    display: flex;
+    align-items: baseline;
+    padding: 16upx $page-row-spacing;
+    line-height: 60upx;
+    position: relative;
+    background: #fff;
+    justify-content: center;
+    border-bottom: 1rpx solid #DEDEDE;
+    &.log-out-btn {
+        margin-top: 40upx;
+        padding: 10rpx;
+        border: 1rpx solid #DEDEDE;
+        border-radius: 12upx;
+        .cell-tit {
+            color: $uni-color-primary;
+            text-align: center;
+            margin-right: 0;
+        }
+    }
+    &.cell-hover {
+        background: #fafafa;
+    }
+    &.b-b:after {
+        left: 30upx;
+    }
+    // &.m-t {
+    //   margin-top: 16upx;
+    // }
+    .cell-more {
+        align-self: baseline;
+        font-size: $font-lg;
+        color: $font-color-light;
+        margin-left: 10upx;
+    }
+    .cell-tit {
+        flex: 1;
+        font-size: $font-base;
+        color: $font-color-dark;
+        margin-right: 10upx;
+    }
+    .cell-tip {
+        font-size: $font-base;
+        color: $font-color-light;
+    }
+    switch {
+        transform: translateX(16upx) scale(0.84);
+    }
+}

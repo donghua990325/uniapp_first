@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "商品评价",
+  "usingComponents": {
+    "uni-rate": "/components/uni-rate/uni-rate"
+  }
+}

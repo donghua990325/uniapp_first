@@ -1,0 +1,208 @@
+.topicdetail {
+	.content{
+		margin-bottom: 305rpx;
+	}
+  .list {
+    width: 690rpx;
+    height: auto;
+    margin: 0 30rpx;
+
+    .title {
+      text-align: center;
+      background: #f4f4f4;
+      font-size: 30rpx;
+      color: #999;
+      padding: 30rpx 0;
+    }
+
+    .item {
+      width: 100%;
+      padding: 24rpx 24rpx 30rpx 24rpx;
+      margin-bottom: 30rpx;
+      background: #fff;
+      box-sizing: border-box;
+
+      img {
+        height: 278rpx;
+        width: 642rpx;
+        display: block;
+      }
+
+      p {
+        display: block;
+        margin-top: 30rpx;
+        font-size: 28rpx;
+      }
+    }
+  }
+}
+.newgoods {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+        .newgoods-top {
+            margin-top: 20rpx;
+            height: 88rpx;
+            width: 100%;
+            background: url('https://imgt1.oss-cn-shanghai.aliyuncs.com/ecAllRes/images/bgnew.png') no-repeat;
+            background-size: 100% 100%;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            .top {
+                width: 100%;
+                padding: 0 30rpx;
+                display: flex;
+                justify-content: space-between;
+                p {
+                    color: #8c9bae;
+                    font-size: 32rpx;
+                }
+                p:nth-child(2) {
+                    width: 180rpx;
+                    height: 50rpx;
+                    line-height: 50rpx;
+                    // margin: 27rpx auto 0 auto;
+                    font-size: 22rpx;
+                    background: #d8e4f0;
+                }
+            }
+            .list {
+                border-radius: 0 0 10rpx 10rpx;
+                background: #fff;
+                padding-top: 0;
+                ul {
+                    li {
+                        width: 230rpx;
+                        padding-left: 0;
+                        margin-bottom: 30rpx;
+                        border-right: 0 none;
+                        display: inline-block;
+                        img {
+                            width: 230rpx;
+                            height: 230rpx;
+                            border: 0 none;
+                            display: block;
+                            background: #F5F5F5;
+                        }
+                        .goods-name {
+                            width: 100%;
+                            height: 82rpx;
+                            line-height: 36rpx;
+                            line-clamp: 2;
+                            overflow: hidden;
+                            white-space: normal;
+                            text-overflow: ellipsis;
+                            .name {
+                                font-size: 26rpx;
+                                margin-top: 8rpx;
+                            }
+                        }
+                        .price {
+                            font-size: 28rpx;
+                            margin-top: 8rpx;
+                            color: #b4282d;
+                            padding: 6rpx;
+                            .del {
+                                color: #999;
+                                font-size: 26rpx;
+                                padding-left: 10rpx;
+                                margin-left: 5rpx;
+                                text-decoration: line-through;
+                            }
+                        }
+                        .activity {
+                            font-size: 22rpx;
+                            color: #b4282d;
+                            border: #b4282d solid 1rpx;
+                            border-radius: 13rpx;
+                            padding: 3rpx 6rpx;
+                            margin-top: 8rpx;
+                        }
+                        .note {
+                            width: 34rpx;
+                            background: #fff;
+                            border: 1rpx solid #b4a078;
+                            position: relative;
+                            top: 0;
+                            padding: 12rpx 0;
+                            margin-left: 10rpx;
+                            margin-top: 10rpx;
+                            .blocks {
+                                width: 32rpx;
+                                line-height: 26rpx;
+                                text-align: center;
+                                color: #b4a078;
+                                font-size: 26rpx;
+                            }
+                        }
+                    }
+                    li:nth-child(n+2) {
+                        border-left: 0 none;
+                    }
+                    li:nth-child(3n) {
+                        margin-right: 0;
+                    }
+                }
+            }
+        }
+        .list {
+            margin-top: 20rpx;
+            background: #fff;
+            padding-bottom: 10rpx;
+            ul {
+				padding: 0;
+                .scroll-view {
+                    width: 100%;
+                    white-space: nowrap;
+                    li {
+                        width: 237rpx;
+                        padding-left: 0rpx;
+                        padding-bottom: 20rpx;
+                        margin-right: 0rpx;
+                        border-right: 0 none;
+                        vertical-align: top;
+                        display: inline-block;
+                        padding: 0 0 0px 22rpx;
+                        img {
+                            width: 215rpx;
+                            height: 215rpx;
+                            border: 0 none;
+                            display: block;
+                            background: #f5f5f5;
+                        }
+                        p:nth-child(2) {
+                            font-size: 26rpx;
+                            // font-weight: bold;
+                            width: 94%;
+                            line-height: 36rpx;
+                            line-clamp: 2;
+                            overflow: hidden;
+                            // white-space: normal;
+							word-break: break-all;
+                            text-overflow: ellipsis;
+                        }
+                        p:nth-child(3) {
+                            color: #8a8a8a;
+                            font-size: 24rpx;
+                        }
+                        p:nth-child(4) {
+                            color: #9c3232;
+                            font-size: 24rpx;
+                        }
+                        p {
+                            width: 94%;
+                            overflow: hidden;
+                            white-space: nowrap;
+                            text-overflow: ellipsis;
+                            margin-top: 8rpx;
+                        }
+                    }
+                    li:nth-child(n+2) {
+                        border-left: 1rpx solid #f4f4f4;
+                    }
+                }
+            }
+        }
+    }

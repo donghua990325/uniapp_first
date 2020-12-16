@@ -1,0 +1,280 @@
+view {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+page {
+    position: relative;
+    background-color: #f5f5f5;
+}
+
+.hidden {
+    display: none !important;
+}
+
+.place {
+    width: 100%;
+    /* #ifdef H5 */
+    height: 155upx;
+    /* #endif */
+    /* #ifdef APP-PLUS || MP */
+    height: 185upx;
+    margin-bottom: 20upx;
+    /* #endif */
+}
+
+.tabr {
+    background-color: #fff;
+    width: 100%;
+    height: 95upx;
+    padding: 0 3%;
+    border-bottom: solid 1upx #dedede;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    view {
+        width: 50%;
+        height: 90upx;
+        justify-content: center;
+        align-items: center;
+        font-size: 32upx;
+        color: #999;
+    }
+    .on {
+        color: #f06c7a;
+    }
+    .border {
+        height: 4upx;
+        background-color: #f06c7a;
+        transition: all 0.3s ease-out;
+        &.invalid {
+            transform: translate3d(100%, 0, 0);
+        }
+    }
+}
+
+.list {
+    width: 100%;
+    display: block;
+    position: relative;
+    // position: absolute;
+    // margin-top: 360uxp;
+}
+
+@keyframes showValid {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+@keyframes showInvalid {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+.sub-list {
+    &.invalid {
+        position: absolute;
+        top: 120rpx;
+        left: 100%;
+        display: none;
+    }
+    &.showvalid {
+        display: flex;
+        animation: showValid 0.2s linear both;
+    }
+    &.showinvalid {
+        display: flex;
+        animation: showInvalid 0.2s linear both;
+    }
+    width: 100%;
+    padding: 20upx 0 120upx 0;
+    .tis {
+        position: relative;
+        top: 120upx;
+        width: 100%;
+        height: 60upx;
+        justify-content: center;
+        align-items: center;
+        font-size: 32upx;
+    }
+    .row {
+        width: 92%;
+        height: 24vw;
+        margin: 20upx auto 10upx auto;
+        border-radius: 8upx;
+        // box-shadow: 0upx 0 10upx rgba(0,0,0,0.1);
+        align-items: center;
+        position: relative;
+        overflow: hidden;
+        z-index: 4;
+        border: 0;
+        .menu {
+            .icon {
+                color: #fff;
+                font-size: 28upx;
+            }
+            position: absolute;
+            width: 28%;
+            height: 100%;
+            right: 0;
+            justify-content: center;
+            align-items: center;
+            background-color: #ccc;
+            color: #fff;
+            z-index: 2;
+        }
+        .carrier {
+            @keyframes showMenu {
+                0% {
+                    transform: translateX(0);
+                }
+                100% {
+                    transform: translateX(-28%);
+                }
+            }
+            @keyframes closeMenu {
+                0% {
+                    transform: translateX(-28%);
+                }
+                100% {
+                    transform: translateX(0);
+                }
+            }
+            &.open {
+                animation: showMenu 0.25s linear both;
+            }
+            &.close {
+                animation: closeMenu 0.15s linear both;
+            }
+            background-color: #fff;
+            // position: absolute;
+            width: 100%;
+            padding: 0 0;
+            height: 100%;
+            z-index: 3;
+            display: flex;
+            flex-wrap: nowrap;
+            justify-content: space-around;
+            .left {
+                width: 100%;
+                .title {
+                    padding-top: 3vw;
+                    width: 90%;
+                    margin: 0 5%;
+                    font-size: 36upx;
+                }
+                .term {
+                    width: 90%;
+                    margin: 0 5%;
+                    font-size: 26upx;
+                    color: #999;
+                }
+                position: relative;
+                .gap-top,
+                .gap-bottom {
+                    position: absolute;
+                    width: 20upx;
+                    height: 20upx;
+                    right: -10upx;
+                    border-radius: 100%;
+                    background-color: #f5f5f5;
+                }
+                .gap-top {
+                    top: -10upx;
+                }
+                .gap-bottom {
+                    bottom: -10upx;
+                }
+                .shixiao {
+                    position: absolute;
+                    right: 20upx;
+                    font-size: 150upx;
+                    z-index: 6;
+                    color: rgba(153, 153, 153, 0.2);
+                }
+            }
+            .right {
+                flex-shrink: 0;
+                width: 28%;
+                color: #fff;
+                background: linear-gradient(to right, #ec625c, #ee827f);
+                &.invalid {
+                    background: linear-gradient(to right, #aaa, #999);
+                    .use {
+                        color: #aaa;
+                    }
+                }
+                justify-content: center;
+                .ticket,
+                .criteria {
+                    width: 100%;
+                }
+                .ticket {
+                    padding-top: 1vw;
+                    justify-content: center;
+                    align-items: baseline;
+                    height: 6vw;
+                    .num {
+                        font-size: 42upx;
+                        font-weight: 600;
+                    }
+                    .unit {
+                        font-size: 24upx;
+                    }
+                }
+                .criteria {
+                    justify-content: center;
+                    font-size: 28upx;
+                }
+                .use {
+                    width: 50%;
+                    height: 40upx;
+                    justify-content: center;
+                    align-items: center;
+                    font-size: 24upx;
+                    background-color: #fff;
+                    color: #ee827f;
+                    border-radius: 40upx;
+                    padding: 0 10upx;
+                }
+            }
+        }
+        /*
+			<view class="carrier" :class="[theIndex==index?'open':oldIndex==index?'close':'']" @touchstart="touchStart(index,$event)" @touchmove="touchMove(index,$event)" @touchend="touchEnd(index,$event)">
+				<view class="left">
+					<view class="title">
+						10元日常用品类
+					</view>
+					<view class="term">
+						2019-04-01~2019-05-30
+					</view>
+				</view>
+				<view class="right">
+					<view class="ticket">
+						<view class="num">
+							10
+						</view>
+						<view class="unit">
+							元
+						</view>
+					</view>
+					<view class="criteria">
+						满50使用
+					</view>
+					<view class="use">
+						去使用
+					</view>
+				</view>
+			</view>
+			* 
+			* */
+    }
+}

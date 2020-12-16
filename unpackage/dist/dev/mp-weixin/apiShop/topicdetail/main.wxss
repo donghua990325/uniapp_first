@@ -1,0 +1,227 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 页面左右间距 */
+/* 文字尺寸 */
+/*文字颜色*/
+/* 边框颜色 */
+/* 图片加载中颜色 */
+/* 行为相关颜色 */
+.topicdetail .content.data-v-21789a35 {
+  margin-bottom: 305rpx;
+}
+.topicdetail .list.data-v-21789a35 {
+  width: 690rpx;
+  height: auto;
+  margin: 0 30rpx;
+}
+.topicdetail .list .title.data-v-21789a35 {
+  text-align: center;
+  background: #f4f4f4;
+  font-size: 30rpx;
+  color: #999;
+  padding: 30rpx 0;
+}
+.topicdetail .list .item.data-v-21789a35 {
+  width: 100%;
+  padding: 24rpx 24rpx 30rpx 24rpx;
+  margin-bottom: 30rpx;
+  background: #fff;
+  box-sizing: border-box;
+}
+.topicdetail .list .item ._img.data-v-21789a35 {
+  height: 278rpx;
+  width: 642rpx;
+  display: block;
+}
+.topicdetail .list .item ._p.data-v-21789a35 {
+  display: block;
+  margin-top: 30rpx;
+  font-size: 28rpx;
+}
+.newgoods.data-v-21789a35 {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+.newgoods .newgoods-top.data-v-21789a35 {
+  margin-top: 20rpx;
+  height: 88rpx;
+  width: 100%;
+  background: url("https://imgt1.oss-cn-shanghai.aliyuncs.com/ecAllRes/images/bgnew.png") no-repeat;
+  background-size: 100% 100%;
+  text-align: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+}
+.newgoods .newgoods-top .top.data-v-21789a35 {
+  width: 100%;
+  padding: 0 30rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+}
+.newgoods .newgoods-top .top ._p.data-v-21789a35 {
+  color: #8c9bae;
+  font-size: 32rpx;
+}
+.newgoods .newgoods-top .top ._p.data-v-21789a35:nth-child(2) {
+  width: 180rpx;
+  height: 50rpx;
+  line-height: 50rpx;
+  font-size: 22rpx;
+  background: #d8e4f0;
+}
+.newgoods .newgoods-top .list.data-v-21789a35 {
+  border-radius: 0 0 10rpx 10rpx;
+  background: #fff;
+  padding-top: 0;
+}
+.newgoods .newgoods-top .list ._ul ._li.data-v-21789a35 {
+  width: 230rpx;
+  padding-left: 0;
+  margin-bottom: 30rpx;
+  border-right: 0 none;
+  display: inline-block;
+}
+.newgoods .newgoods-top .list ._ul ._li ._img.data-v-21789a35 {
+  width: 230rpx;
+  height: 230rpx;
+  border: 0 none;
+  display: block;
+  background: #F5F5F5;
+}
+.newgoods .newgoods-top .list ._ul ._li .goods-name.data-v-21789a35 {
+  width: 100%;
+  height: 82rpx;
+  line-height: 36rpx;
+  line-clamp: 2;
+  overflow: hidden;
+  white-space: normal;
+  text-overflow: ellipsis;
+}
+.newgoods .newgoods-top .list ._ul ._li .goods-name .name.data-v-21789a35 {
+  font-size: 26rpx;
+  margin-top: 8rpx;
+}
+.newgoods .newgoods-top .list ._ul ._li .price.data-v-21789a35 {
+  font-size: 28rpx;
+  margin-top: 8rpx;
+  color: #b4282d;
+  padding: 6rpx;
+}
+.newgoods .newgoods-top .list ._ul ._li .price .del.data-v-21789a35 {
+  color: #999;
+  font-size: 26rpx;
+  padding-left: 10rpx;
+  margin-left: 5rpx;
+  text-decoration: line-through;
+}
+.newgoods .newgoods-top .list ._ul ._li .activity.data-v-21789a35 {
+  font-size: 22rpx;
+  color: #b4282d;
+  border: #b4282d solid 1rpx;
+  border-radius: 13rpx;
+  padding: 3rpx 6rpx;
+  margin-top: 8rpx;
+}
+.newgoods .newgoods-top .list ._ul ._li .note.data-v-21789a35 {
+  width: 34rpx;
+  background: #fff;
+  border: 1rpx solid #b4a078;
+  position: relative;
+  top: 0;
+  padding: 12rpx 0;
+  margin-left: 10rpx;
+  margin-top: 10rpx;
+}
+.newgoods .newgoods-top .list ._ul ._li .note .blocks.data-v-21789a35 {
+  width: 32rpx;
+  line-height: 26rpx;
+  text-align: center;
+  color: #b4a078;
+  font-size: 26rpx;
+}
+.newgoods .newgoods-top .list ._ul ._li.data-v-21789a35:nth-child(n+2) {
+  border-left: 0 none;
+}
+.newgoods .newgoods-top .list ._ul ._li.data-v-21789a35:nth-child(3n) {
+  margin-right: 0;
+}
+.newgoods .list.data-v-21789a35 {
+  margin-top: 20rpx;
+  background: #fff;
+  padding-bottom: 10rpx;
+}
+.newgoods .list ._ul.data-v-21789a35 {
+  padding: 0;
+}
+.newgoods .list ._ul .scroll-view.data-v-21789a35 {
+  width: 100%;
+  white-space: nowrap;
+}
+.newgoods .list ._ul .scroll-view ._li.data-v-21789a35 {
+  width: 237rpx;
+  padding-left: 0rpx;
+  padding-bottom: 20rpx;
+  margin-right: 0rpx;
+  border-right: 0 none;
+  vertical-align: top;
+  display: inline-block;
+  padding: 0 0 0px 22rpx;
+}
+.newgoods .list ._ul .scroll-view ._li ._img.data-v-21789a35 {
+  width: 215rpx;
+  height: 215rpx;
+  border: 0 none;
+  display: block;
+  background: #f5f5f5;
+}
+.newgoods .list ._ul .scroll-view ._li ._p.data-v-21789a35:nth-child(2) {
+  font-size: 26rpx;
+  width: 94%;
+  line-height: 36rpx;
+  line-clamp: 2;
+  overflow: hidden;
+  word-break: break-all;
+  text-overflow: ellipsis;
+}
+.newgoods .list ._ul .scroll-view ._li ._p.data-v-21789a35:nth-child(3) {
+  color: #8a8a8a;
+  font-size: 24rpx;
+}
+.newgoods .list ._ul .scroll-view ._li ._p.data-v-21789a35:nth-child(4) {
+  color: #9c3232;
+  font-size: 24rpx;
+}
+.newgoods .list ._ul .scroll-view ._li ._p.data-v-21789a35 {
+  width: 94%;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  margin-top: 8rpx;
+}
+.newgoods .list ._ul .scroll-view ._li.data-v-21789a35:nth-child(n+2) {
+  border-left: 1rpx solid #f4f4f4;
+}
+

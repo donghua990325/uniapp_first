@@ -1,0 +1,64 @@
+.guide {
+    /* #ifndef APP-PLUS */
+    display: flex;
+    height: 100%;
+    /* #endif */
+    flex-direction: column;
+    flex: 1;
+}
+
+.flex1 {
+    flex: 1;
+    height: 100vh;
+    width: 100%;
+}
+
+.apptestnnnn {
+    border-width: 1px;
+    border-color: #4cd964;
+    border-style: solid;
+}
+
+.apptest {
+    border-width: 1px;
+    border-color: #007aff;
+    border-style: solid;
+}
+
+.swiper-to-home {
+    position: absolute;
+    z-index: 999;
+    right: 40rpx;
+    /* #ifndef MP */
+    top: 80rpx;
+    /* #endif */
+    /* #ifdef MP */
+    top: 150rpx;
+    /* #endif */
+}
+
+.swiper-to-home-text {
+    color: #ffffff;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-width: 1rpx;
+    border-color: #ffffff;
+    border-style: solid;
+    border-radius: 30rpx;
+    font-size: 28rpx;
+    padding-top: 5rpx;
+    padding-bottom: 5rpx;
+    padding-left: 25rpx;
+    padding-right: 25rpx;
+}
+
+.indicator {
+    width: 714rpx;
+    height: 30rpx;
+    position: absolute;
+    bottom: 50rpx;
+    left: 1rpx;
+    item-color: #f6f6f6;
+    item-selected-color: #fd575c;
+    item-size: 20rpx;
+}

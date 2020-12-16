@@ -1,0 +1,28 @@
+.list-cell {
+    display: flex;
+    align-items: baseline;
+    padding: 16upx $page-row-spacing;
+    line-height: 60upx;
+    position: relative;
+    background: #fff;
+    justify-content: center;
+    border-bottom: 1rpx solid #dedede;
+    &.log-out-btn {
+        margin-top: 40upx;
+        padding: 10rpx;
+        border: 1rpx solid #dedede;
+        border-radius: 12upx;
+        .cell-tit {
+            color: $uni-color-primary;
+            text-align: center;
+            margin-right: 0;
+        }
+    }
+}
+
+.cu-avatar .portrait {
+    width: 70upx;
+    height: 70upx;
+    border: 5upx solid #fff;
+    border-radius: 50%;
+}

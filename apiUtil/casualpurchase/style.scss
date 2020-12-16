@@ -1,0 +1,28 @@
+.page {
+    width: 100%;
+    position: absolute;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.move-area {
+    position: absolute;
+}
+
+.move-view {
+    width: 600rpx;
+    position: absolute;
+    height: 900rpx;
+    left: 50%;
+    top: 50%;
+    margin-left: -300rpx;
+    margin-top: -500rpx;
+}
+
+.cardBox {
+    position: relative;
+    width: 600rpx;
+    height: 800rpx;
+}

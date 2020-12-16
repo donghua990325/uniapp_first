@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "首页",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "jfooter": "/components/footer/footer",
+    "uni-countdown": "/components/linnian-CountDown/uni-countdown",
+    "show-online": "/components/show/showOnLine"
+  }
+}

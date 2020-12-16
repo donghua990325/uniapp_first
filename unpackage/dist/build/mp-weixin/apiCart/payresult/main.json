@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "支付结果",
+  "usingComponents": {
+    "uni-countdown": "/components/linnian-CountDown/uni-countdown"
+  }
+}

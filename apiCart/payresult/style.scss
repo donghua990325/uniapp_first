@@ -1,0 +1,86 @@
+.container {
+  // height: 100vh;
+  background: #fff;
+}
+
+.pay-result {
+  background: #fff;
+}
+
+.pay-result .msg {
+  text-align: center;
+  margin: 100rpx auto;
+  color: #2bab25;
+  font-size: 36rpx;
+}
+
+.pay-result .btns {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pay-result .btn {
+  text-align: center;
+  height: 80rpx;
+  margin: 0 20rpx;
+  width: 200rpx;
+  line-height: 78rpx;
+  border: 0.01rem solid #868686;
+  color: #000000;
+}
+
+.pay-result .error .msg {
+  color: #b4282d;
+  margin-bottom: 60rpx;
+}
+
+.pay-result .error .tips {
+  color: #7f7f7f;
+  margin-bottom: 70rpx;
+}
+
+.pay-result .error .tips .p {
+  font-size: 24rpx;
+  line-height: 42rpx;
+  text-align: center;
+}
+
+.pay-result .error .tips .p .time {
+  color: #b4282d;
+  line-height: 42rpx;
+  text-align: center;
+}.activity-line {
+    height: 60rpx;
+    padding: 8rpx 30rpx;    margin-top: 20px;    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    background: #f4f4f4;    .activity {
+        display: flex;
+        justify-content: flex-start;
+        .title {
+            color: #b4282d;
+            font-size: 16px;
+            line-height: 60rpx;
+        }
+        .sub {
+            padding-left: 10rpx;
+            color: #666;
+            font-size: 22rpx;
+            line-height: 60rpx;
+        }        .content{            text-align: center;            color: #b4282d;
+            font-size: 16px;
+            line-height: 60rpx;        }
+    }
+    .timer {
+        display: flex;
+        justify-content: flex-start;
+        line-height: 60rpx;
+        .text {
+            color: #666;
+            font-size: 16px;
+            line-height: 60rpx;
+            padding-right: 10rpx;
+        }
+    }
+}.uni-countdown{    margin-top:4px;}

@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "下级消费记录",
+  "usingComponents": {
+    "watch-button": "/components/watch-login/watch-button"
+  }
+}

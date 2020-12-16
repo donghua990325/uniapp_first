@@ -1,0 +1,286 @@
+%flex-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+%section {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    background: #fff;
+    border-radius: 10upx;
+}
+.scroll{
+    height: calc(100vh - 1rpx);
+}
+.top-bar{
+    height: 60rpx;
+    background-color: #f4f4f4;
+    opacity: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+}
+
+.user-section {
+    // height: 520upx;
+    padding: 120upx 30upx 0;
+    position: relative;
+    .bg {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        filter: blur(1px);
+        opacity: 0.7;
+    }
+}
+
+.user-info-box {
+    height: 180upx;
+    display: flex;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+    .portrait {
+        width: 130upx;
+        height: 130upx;
+        border: 5upx solid #fff;
+        border-radius: 50%;
+    }
+    .username {
+        font-size: $font-lg + 6upx;
+        color: $font-color-dark;
+        margin-left: 20upx;
+    }
+}
+
+.vip-card-box {
+    display: flex;
+    flex-direction: column;
+    color: #f7d680;
+    height: 295upx;
+    background: linear-gradient(left, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8));
+    border-radius: 16upx 16upx 0 0;
+    overflow: hidden;
+    position: relative;
+    padding: 20upx 24upx;
+    .card-bg {
+        position: absolute;
+        top: 20upx;
+        right: 0;
+        width: 380upx;
+        height: 260upx;
+    }
+    .b-btn {
+        position: absolute;
+        right: 20upx;
+        top: 16upx;
+        width: 132upx;
+        height: 40upx;
+        text-align: center;
+        line-height: 40upx;
+        font-size: 22upx;
+        color: #36343c;
+        border-radius: 20px;
+        background: linear-gradient(left, #f9e6af, #ffd465);
+        // z-index: 1;
+    }
+    .tit {
+        font-size: $font-base + 2upx;
+        color: #f7d680;
+        margin-bottom: 28upx;
+        .yticon {
+            color: #f15353;
+            margin-right: 16upx;
+        }
+    }
+    .e-b {
+        font-size: $font-sm;
+        color: #d8cba9;
+        margin-top: 10upx;
+    }
+}
+
+.cover-container {
+    background: $page-color-base;
+    margin-top: -90upx;
+    padding: 0 30upx;
+    position: relative;
+    background: #f5f5f5;
+    padding-bottom: 20upx;
+    .arc {
+        position: absolute;
+        left: 0;
+        top: -34upx;
+        width: 100%;
+        height: 36upx;
+    }
+}
+
+.tj-sction {
+    @extend %section;
+    .tj-item {
+        @extend %flex-center;
+        flex-direction: column;
+        height: 140upx;
+        width: 33.3%;
+        font-size: $font-sm;
+        color: #75787d;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+    .num {
+        width: 100%;
+        font-size: $font-lg;
+        color: $font-color-dark;
+        margin-bottom: 8upx;
+        text-align: center;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        white-space: nowrap;
+    }
+}
+
+.all-line{
+    padding: 20rpx 20rpx 10rpx;
+    margin-top: 20rpx;
+    margin-bottom: -40rpx;
+    background-color: #fff;
+    border-radius: 10rpx 10rpx 0 0;
+    display: flex;
+    justify-content: space-between;
+    .name{
+        color: #666;
+        font-size: 26rpx;
+    }
+    .all{
+        font-size: 24rpx;
+        color: #999;
+    }
+}
+.order-section {
+    @extend %section;
+    padding: 28upx 0;
+    margin-top: 20upx;
+    display: flex;
+    .order-item {
+        @extend %flex-center;
+        width: 120upx;
+        height: 120upx;
+        border-radius: 10upx;
+        font-size: $font-sm;
+        color: $font-color-dark;
+    }
+    .order-item-width {
+        @extend %flex-center;
+        width: 200upx;
+        height: 120upx;
+        border-radius: 10upx;
+        font-size: $font-sm;
+        color: $font-color-dark;
+    }
+    .faker {
+        width: 26rpx;
+        height: 26rpx;
+        display: block;
+        position: relative;
+        z-index: 10;
+        border-radius: 50%;
+        top: 15rpx;
+        left: 14%;
+        text-align: center;
+        color: #fff;
+        font-size: 20rpx;
+        background: transparent;
+    }
+    .sup {
+        width: 30rpx;
+        height: 30rpx;
+        display: block;
+        position: relative;
+        z-index: 10;
+        border-radius: 50%;
+        top: 15rpx;
+        left: 14%;
+        text-align: center;
+        color: #fff;
+        font-size: 20rpx;
+        background: #fa436a;
+    }
+    .yticon {
+        font-size: 48upx;
+        margin-bottom: 18upx;
+        color: #fa436a;
+    }
+    .icon-shouhoutuikuan {
+        font-size: 48upx;
+    }
+}
+
+.history-section {
+    padding: 30upx 0 0;
+    margin-top: 20upx;
+    background: #fff;
+    border-radius: 10upx;
+    .sec-header {
+        display: flex;
+        align-items: center;
+        font-size: $font-base;
+        color: $font-color-dark;
+        line-height: 40upx;
+        margin-left: 30upx;
+        .yticon {
+            font-size: 44upx;
+            color: #5eba8f;
+            margin-right: 16upx;
+            line-height: 40upx;
+        }
+    }
+    button {
+        width: 100%;
+        text-align: left;
+        padding: 0;
+        list-cell {
+            width: 690rpx;
+        }
+        /* #ifdef H5 */
+        uni-view {
+            width: 690rpx;
+        }
+        /* #endif  */
+    }
+    .btn {
+        border-top: 0 none;
+        display: flex;
+        background: none;
+        border-radius: 0;
+        align-items: center;
+        // justify-content: center;
+        border: 0 none;
+    }
+    .btn:after {
+        border: 0 none;
+    }
+    .h-list {
+        width: 100%;
+        white-space: nowrap;
+        overflow: hidden;
+        padding: 30upx 30upx 0;
+        image {
+            display: inline-block;
+            width: 160upx;
+            height: 160upx;
+            margin-right: 20upx;
+            border-radius: 10upx;
+        }
+    }
+}
+
+button::after{display: none};

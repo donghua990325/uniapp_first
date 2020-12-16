@@ -1,0 +1,432 @@
+{
+  "pages": [
+    "pages/index/main",
+    "pages/topic/main",
+    "pages/category/main",
+    "pages/cart/main",
+    "pages/live/main",
+    "pages/my/main"
+  ],
+  "subPackages": [
+    {
+      "root": "apiPam",
+      "pages": [
+        "binding/main",
+        "forget/main",
+        "login/main",
+        "logincommon/main",
+        "register/main",
+        "securityphone/main",
+        "securitypwd/main",
+        "mobile/main"
+      ]
+    },
+    {
+      "root": "apiShop",
+      "pages": [
+        "branddetail/main",
+        "brandlist/main",
+        "categorylist/main",
+        "goods/main",
+        "newgoods/main",
+        "integralgoods/main",
+        "superpackage/main",
+        "search/main",
+        "topicdetail/main",
+        "userjudge/main",
+        "pintuan/main",
+        "goodsstatus/main",
+        "newgoodslist/main",
+        "hotgooslist/main",
+        "spikelist/main"
+      ]
+    },
+    {
+      "root": "apiCart",
+      "pages": [
+        "addaddress/main",
+        "address/main",
+        "addressselect/main",
+        "order/main",
+        "orderdelivery/main",
+        "orderpackage/main",
+        "deliverytime/main",
+        "pay/main",
+        "payresult/main",
+        "tax/main"
+      ]
+    },
+    {
+      "root": "apiMember",
+      "pages": [
+        "advancelist/main",
+        "aftersale/main",
+        "aftersalelist/main",
+        "collectlist/main",
+        "coupon/main",
+        "deposit/main",
+        "promote/main",
+        "judge/main",
+        "memberinfo/main",
+        "orderdetail/main",
+        "orderlist/main",
+        "point/main",
+        "set/main",
+        "agent/main",
+        "lowerorder/main",
+        "cash/main",
+        "bonus/main"
+      ]
+    },
+    {
+      "root": "apiUtil",
+      "pages": [
+        "feedback/main",
+        "guide/main",
+        "timeline/main",
+        "meteorshower/main",
+        "casualpurchase/main",
+        "logisticstrack/main"
+      ]
+    }
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "商城软件",
+    "navigationBarBackgroundColor": "#FFFFFF",
+    "backgroundColor": "#f8f8f8",
+    "navigationStyle": "custom"
+  },
+  "tabBar": {
+    "backgroundColor": "#fafafa",
+    "borderStyle": "white",
+    "selectedColor": "#b4282d",
+    "color": "#666",
+    "list": [
+      {
+        "pagePath": "pages/index/main",
+        "iconPath": "static/images/ic_menu_choice_nor.png",
+        "selectedIconPath": "static/images/ic_menu_choice_pressed.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/topic/main",
+        "iconPath": "static/images/ic_menu_topic_nor.png",
+        "selectedIconPath": "static/images/ic_menu_topic_pressed.png",
+        "text": "精选"
+      },
+      {
+        "pagePath": "pages/category/main",
+        "iconPath": "static/images/ic_menu_sort_nor.png",
+        "selectedIconPath": "static/images/ic_menu_sort_pressed.png",
+        "text": "分类"
+      },
+      {
+        "pagePath": "pages/cart/main",
+        "iconPath": "static/images/ic_menu_shoping_nor.png",
+        "selectedIconPath": "static/images/ic_menu_shoping_pressed.png",
+        "text": "购物车"
+      },
+      {
+        "pagePath": "pages/my/main",
+        "iconPath": "static/images/ic_menu_me_nor.png",
+        "selectedIconPath": "static/images/ic_menu_me_pressed.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "preloadRule": {
+    "apiPam/binding/main": {
+      "network": "all",
+      "packages": [
+        "__APP__"
+      ]
+    },
+    "apiPam/forget/main": {
+      "network": "all",
+      "packages": [
+        "__APP__"
+      ]
+    },
+    "apiPam/login/main": {
+      "network": "all",
+      "packages": [
+        "__APP__"
+      ]
+    },
+    "apiPam/logincommon/main": {
+      "network": "all",
+      "packages": [
+        "__APP__"
+      ]
+    },
+    "apiPam/register/main": {
+      "network": "all",
+      "packages": [
+        "__APP__"
+      ]
+    },
+    "apiPam/securityphone/main": {
+      "network": "all",
+      "packages": [
+        "__APP__"
+      ]
+    },
+    "apiPam/securitypwd/main": {
+      "network": "all",
+      "packages": [
+        "__APP__"
+      ]
+    },
+    "apiShop/branddetail/main": {
+      "network": "all",
+      "packages": [
+        "__APP__"
+      ]
+    },
+    "apiShop/brandlist/main": {
+      "network": "all",
+      "packages": [
+        "__APP__"
+      ]
+    },
+    "apiShop/categorylist/main": {
+      "network": "all",
+      "packages": [
+        "__APP__"
+      ]
+    },
+    "apiShop/goods/main": {
+      "network": "all",
+      "packages": [
+        "__APP__"
+      ]
+    },
+    "apiShop/newgoods/main": {
+      "network": "all",
+      "packages": [
+        "__APP__"
+      ]
+    },
+    "apiShop/integralgoods/main": {
+      "network": "all",
+      "packages": [
+        "__APP__"
+      ]
+    },
+    "apiShop/superpackage/main": {
+      "network": "all",
+      "packages": [
+        "__APP__"
+      ]
+    },
+    "apiShop/search/main": {
+      "network": "all",
+      "packages": [
+        "__APP__"
+      ]
+    },
+    "apiShop/topicdetail/main": {
+      "network": "all",
+      "packages": [
+        "__APP__"
+      ]
+    },
+    "apiShop/userjudge/main": {
+      "network": "all",
+      "packages": [
+        "__APP__"
+      ]
+    },
+    "apiShop/pintuan/main": {
+      "network": "all",
+      "packages": [
+        "__APP__"
+      ]
+    },
+    "apiCart/addaddress/main": {
+      "network": "all",
+      "packages": [
+        "__APP__"
+      ]
+    },
+    "apiCart/address/main": {
+      "network": "all",
+      "packages": [
+        "__APP__"
+      ]
+    },
+    "apiCart/addressselect/main": {
+      "network": "all",
+      "packages": [
+        "__APP__"
+      ]
+    },
+    "apiCart/order/main": {
+      "network": "all",
+      "packages": [
+        "__APP__"
+      ]
+    },
+    "apiCart/orderdelivery/main": {
+      "network": "all",
+      "packages": [
+        "__APP__"
+      ]
+    },
+    "apiCart/orderpackage/main": {
+      "network": "all",
+      "packages": [
+        "__APP__"
+      ]
+    },
+    "apiCart/deliverytime/main": {
+      "network": "all",
+      "packages": [
+        "__APP__"
+      ]
+    },
+    "apiCart/pay/main": {
+      "network": "all",
+      "packages": [
+        "__APP__"
+      ]
+    },
+    "apiCart/payresult/main": {
+      "network": "all",
+      "packages": [
+        "__APP__"
+      ]
+    },
+    "apiCart/tax/main": {
+      "network": "all",
+      "packages": [
+        "__APP__"
+      ]
+    },
+    "apiMember/advancelist/main": {
+      "network": "all",
+      "packages": [
+        "__APP__"
+      ]
+    },
+    "apiMember/aftersale/main": {
+      "network": "all",
+      "packages": [
+        "__APP__"
+      ]
+    },
+    "apiMember/aftersalelist/main": {
+      "network": "all",
+      "packages": [
+        "__APP__"
+      ]
+    },
+    "apiMember/collectlist/main": {
+      "network": "all",
+      "packages": [
+        "__APP__"
+      ]
+    },
+    "apiMember/coupon/main": {
+      "network": "all",
+      "packages": [
+        "__APP__"
+      ]
+    },
+    "apiMember/deposit/main": {
+      "network": "all",
+      "packages": [
+        "__APP__"
+      ]
+    },
+    "apiMember/promote/main": {
+      "network": "all",
+      "packages": [
+        "__APP__"
+      ]
+    },
+    "apiMember/judge/main": {
+      "network": "all",
+      "packages": [
+        "__APP__"
+      ]
+    },
+    "apiMember/memberinfo/main": {
+      "network": "all",
+      "packages": [
+        "__APP__"
+      ]
+    },
+    "apiMember/orderdetail/main": {
+      "network": "all",
+      "packages": [
+        "__APP__"
+      ]
+    },
+    "apiMember/orderlist/main": {
+      "network": "all",
+      "packages": [
+        "__APP__"
+      ]
+    },
+    "apiMember/point/main": {
+      "network": "all",
+      "packages": [
+        "__APP__"
+      ]
+    },
+    "apiMember/set/main": {
+      "network": "all",
+      "packages": [
+        "__APP__"
+      ]
+    },
+    "apiMember/bonus/main": {
+      "network": "all",
+      "packages": [
+        "__APP__"
+      ]
+    },
+    "apiUtil/feedback/main": {
+      "network": "all",
+      "packages": [
+        "__APP__"
+      ]
+    },
+    "apiUtil/guide/main": {
+      "network": "all",
+      "packages": [
+        "__APP__"
+      ]
+    },
+    "apiUtil/timeline/main": {
+      "network": "all",
+      "packages": [
+        "__APP__"
+      ]
+    },
+    "apiUtil/meteorshower/main": {
+      "network": "all",
+      "packages": [
+        "__APP__"
+      ]
+    },
+    "apiUtil/casualpurchase/main": {
+      "network": "all",
+      "packages": [
+        "__APP__"
+      ]
+    },
+    "apiUtil/logisticstrack/main": {
+      "network": "all",
+      "packages": [
+        "__APP__"
+      ]
+    }
+  },
+  "usingComponents": {
+    "cu-custom": "/colorui/components/cu-custom"
+  },
+  "sitemapLocation": "sitemap83.json"
+}

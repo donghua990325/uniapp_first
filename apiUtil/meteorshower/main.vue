@@ -1,0 +1,30 @@
+<template>
+  <view>
+    <cu-custom bgColor="bg-white" :isBack="true">
+      <block slot="backText">返回</block>
+      <block slot="content">流星雨</block>
+    </cu-custom>
+    <view class="space">
+      <view class="planet">
+        <view class="planet_shadow"></view>
+        <view class="crater1"></view>
+        <view class="crater2"></view>
+        <view class="crater3"></view>
+        <view class="crater4"></view>
+      </view>
+      <view class="stars">
+        <view class="star"></view>
+        <view class="star pink"></view>
+        <view class="star blue"></view>
+        <view class="star yellow"></view>
+      </view>
+    </view>
+  </view>
+</template>
+<script>
+</script>
+
+<style lang='scss' scoped>
+@import "./style";
+</style>
+

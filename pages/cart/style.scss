@@ -1,0 +1,192 @@
+.cart {
+    overflow-x: hidden;
+    .top {
+        display: flex;
+        justify-content: space-between;
+        padding: 30rpx 20rpx;
+        background: #f4f4f4;
+        div {
+            background: url(https://imgt1.oss-cn-shanghai.aliyuncs.com/ecAllRes/images/servicePolicyRed.png) 0 center no-repeat;
+            background-size: 10rpx;
+            padding-left: 15rpx;
+            display: flex;
+            align-items: center;
+            font-size: 25rpx;
+            color: #666;
+        }
+    }
+    .cartlist {
+        // border-top: 1rpx solid #d9d9d9;
+        background: #fff;
+        margin-bottom: 110rpx;
+        .item {
+            padding: 20rpx 0;
+            border-bottom: 1rpx solid #f4f4f4;
+            height: 166rpx;
+            position: relative;
+            .con {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                transition: all 300ms ease;
+                .left {
+                    display: flex;
+                    align-items: center;
+                    width: 73%;
+                    .icon {
+                        height: 125rpx;
+                        width: 34rpx;
+                        background: url(https://imgt1.oss-cn-shanghai.aliyuncs.com/ecAllRes/images/checkbox-unchecked.png) no-repeat center center;
+                        background-size: 34rpx 34rpx;
+                        margin: 0 20rpx;
+                    }
+                    .icon.active {
+                        background: url(https://imgt1.oss-cn-shanghai.aliyuncs.com/ecAllRes/images/checkbox-checked.png) no-repeat center center;
+                        background-size: 34rpx 34rpx;
+                    }
+                    .img {
+                        height: 125rpx;
+                        width: 125rpx;
+                        display: block;
+                        background: #f4f4f4;
+                        img {
+                            width: 100%;
+                            height: 100%;
+                        }
+                    }
+                    .info {
+                        width: 60%;
+                        padding: 20rpx;
+                        p {
+                            font-size: 26rpx;
+                            line-height: 40rpx;
+                            white-space: nowrap;
+                            text-overflow: ellipsis;
+                            overflow: hidden;
+                        }
+                        .small {
+                            font-size: 24rpx;
+                        }
+                    }
+                }
+                .right {
+                    float: right;
+                    padding-right: 25rpx;
+                    height: 55rpx;
+                    line-height: 55rpx;
+                    display: flex;
+                    -webkit-box-align: center;
+                    align-items: center;
+                    text-align: center;
+                    input {
+                        /* #ifdef H5 || APP-PLUS */
+                        height: 59rpx;
+                        /* #endif */
+                        /* #ifdef MP */
+                        height: 55rpx;
+                        /* #endif */
+                        line-height: 55rpx;
+                        width: 60rpx;
+                        font-size: 26rpx;
+                        border-top: 2rpx solid #d9d9d9;
+                        border-bottom: 2rpx solid #d9d9d9;
+                        text-align: center;
+                        padding: 0;
+                    }
+                    span {
+                        width: 55rpx;
+                        height: 55rpx;
+                        line-height: 55rpx;
+                        /* #ifdef APP-PLUS */
+                        height: 59rpx;
+                        line-height: 59rpx;
+                        /* #endif */
+                        font-size: 20rpx;
+                        color: #999;
+                        border: 2rpx solid #d9d9d9;
+                    }
+                }
+            }
+            .delete {
+                position: absolute;
+                width: 100rpx;
+                top: 0;
+                right: -100rpx;
+                text-align: center;
+                height: 100%;
+                background: #b4282d;
+                color: #fff;
+                transition: all 200ms ease;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                div {
+                    color: #fff;
+                }
+            }
+        }
+    }
+    .fixed {
+        position: fixed;
+        /* #ifdef H5 */
+        bottom: 50px;
+        /* #endif */
+        /* #ifdef APP-PLUS  */
+        bottom: 0px;
+        /* #endif */
+        /* #ifdef MP */
+        bottom: 0;
+        /* #endif */
+        left: 0;
+        height: 80rpx;
+        line-height: 80rpx;
+        width: 100%;
+        background: #f4f4f4;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        z-index: 10;
+        .left {
+            display: flex;
+            align-items: center;
+            background: url(https://imgt1.oss-cn-shanghai.aliyuncs.com/ecAllRes/images/checkbox-unchecked.png) no-repeat;
+            background-size: 34rpx 34rpx;
+            background-position: 20rpx;
+            padding-left: 70rpx;
+        }
+        .active {
+            background: url(https://imgt1.oss-cn-shanghai.aliyuncs.com/ecAllRes/images/checkbox-checked.png) no-repeat;
+            background-size: 34rpx 34rpx;
+            background-position: 20rpx;
+        }
+        .right {
+            display: flex;
+            div:nth-child(1) {
+                color: #b4282d;
+                padding-right: 40rpx;
+            }
+            div:nth-child(2) {
+                width: 200rpx;
+                height: 80rpx;
+                text-align: center;
+                line-height: 80rpx;
+                font-size: 29rpx;
+                background: #b4282d;
+                color: #fff;
+            }
+        }
+    }
+    .nogoods {
+        margin-top: 200rpx;
+        img {
+            margin: 0 auto;
+            display: block;
+            width: 258rpx;
+            height: 258rpx;
+        }
+    }
+	.font_center{
+		margin-top: 10rpx;
+		text-align: center;
+	}
+}

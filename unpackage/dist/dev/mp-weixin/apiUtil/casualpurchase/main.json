@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "随心购",
+  "usingComponents": {
+    "card-box": "/apiUtil/casualpurchase/card-box"
+  }
+}
