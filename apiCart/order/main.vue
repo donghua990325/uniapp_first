@@ -269,8 +269,8 @@
 	            <view class="flex-sub">{{ item.delivery_name }}</view>
 	            <radio
 	              class="round"
-	              :class="radio == 'radio' + index ? 'checked' : ''"
-	              :checked="radio == 'radio' + index ? true : false"
+	              :class="radio == item.delivery_name ? 'checked' : ''"
+	              :checked="radio == item.delivery_name ? true : false"
 	              :value="item.delivery_name"
 	            ></radio>
 				<!-- :value="'radio' + index" -->
@@ -485,6 +485,7 @@ export default {
 	  dtype: false,
 	  dt: [],
 	  dtchecked: 0,
+	  shippingData:''
 	  // isShow: true,
     };
   },
@@ -502,7 +503,7 @@ export default {
         return false;
       }
       if (this.shipping.length === 0) {
-        let shippingData = "";
+        this.shippingData = "";
 
         uni.showToast({
           title: "请选择配送方式", //提示的内容,
@@ -514,7 +515,7 @@ export default {
 
         return false;
       } else {
-        let shippingData = JSON.stringify(this.shipping);
+        this.shippingData = JSON.stringify(this.shipping);
       }
       if (this.tax_type == "") {
         uni.showToast({
@@ -722,13 +723,15 @@ export default {
         return false;
       }
       if (this.ral == "true") {
-        uni.navigateTo({
-          url: "/apiCart/orderdelivery/main?ral=true",
-        });
+        // uni.navigateTo({
+        //   url: "/apiCart/orderdelivery/main?ral=true",
+        // });
+		this.tagVal(0,'1',true,'1')
       } else if (this.superpack == "true") {
-        uni.navigateTo({
-          url: "/apiCart/orderdelivery/main?superpack=true",
-        });
+        // uni.navigateTo({
+        //   url: "/apiCart/orderdelivery/main?superpack=true",
+        // });
+		this.tagVal(0,'1',true,'1')
       } else {
         // uni.navigateTo({
         //   url: "/apiCart/orderdelivery/main",
@@ -776,7 +779,7 @@ export default {
 	    if (this.delivery_name == " ") {
 	      this.delivery_name = this.list[0].delivery_name;
 	      this.d_id = this.list[0].parent_id;
-	      this.radio = "radio0";
+	      // this.radio = "radio0";
 	    }
 	  }
 	  if (this.type == "1") {
@@ -794,17 +797,18 @@ export default {
 	      });
 	      return false;
 	    }
-	    this.delivery_name = this.list[0].delivery_name;
+	    // this.delivery_name = this.list[0].delivery_name;
 	    this.d_id = this.list[0].delivery_id;
 	    this.p_status = "true";
 	    this.dtype = true;
-	    this.radio = "radio0";
+	    // this.radio = "radio0";
 	    uni.setStorageSync("shipping_type", "a");
 	  }
 	},
 	RadioChange(e) {//切换快递的值
 	console.log(456456,e)
 	  this.radio = e.detail.value;
+	  this.delivery_name = this.radio;
 	},
 	name(delivery_name) {
 		console.log(1111112346)
@@ -812,8 +816,8 @@ export default {
 	},
 	//选择快递之后
 	clickId(id, type, k_status, name, parent_id, dtype) {
-		console.log(77777895555)
 	  uni.setStorageSync("shipping_id", id);
+	  this.shipping_id = id;
 	  uni.setStorageSync("p_type", type);
 	  if (type == undefined) {
 	    uni.setStorageSync("p_type", true);
@@ -828,6 +832,7 @@ export default {
 	    this.dtype = true;
 	  }
 		this.getDeliverylist()
+		this.getDetail();
 	},
 	async startOrder() {
 	  //存配送方式相关信息 purchase[shipping]
@@ -837,6 +842,7 @@ export default {
 	  }
 	  // uni.setStorageSync("p_type", '1');
 	  uni.setStorageSync("k_status", "");
+	  console.log('111dt',this.dt[0])
 	  this.shipping = {
 	    id: this.dt[0].shipping_id,
 	    dt_name: this.dt[0].shipping_name,
@@ -882,7 +888,6 @@ export default {
       });
       if (data) {
         this.dt = data.data.info;
-    	console.log(111,this.dt)
 		this.startOrder()
         this.type = data.data.info[0]["type"];
       }
@@ -894,9 +899,10 @@ export default {
     },
 	async getDetail() {
       if (this.shipping.length === 0) {
-        let shippingData = "";
+        this.shippingData = "";
       } else {
-        let shippingData = JSON.stringify(this.shipping);
+        this.shippingData = JSON.stringify(this.shipping);
+		console.log(this.shippingData)
       }
       if (this.shipping.id) {
         this.shipping_id = this.shipping.id;
@@ -920,6 +926,7 @@ export default {
         this.pintuanGoodsId = uni.getStorageSync("pt_goods_id");
         this.pintuanOrderId = uni.getStorageSync("pt_order_id");
       }
+	  console.log(this.shippingData)
       const data = await orderDetailListApi({
         address_id: this.addressId,
         productId: this.productId,

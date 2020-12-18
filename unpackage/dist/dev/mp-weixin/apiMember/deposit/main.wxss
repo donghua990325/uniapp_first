@@ -69,8 +69,10 @@
   -webkit-box-align: center;
   -webkit-align-items: center;
           align-items: center;
-  border-radius: 10rpx;
-  box-shadow: 0rpx 5rpx 20rpx rgba(0, 0, 0, 0.05);
+  -webkit-border-radius: 10rpx;
+          border-radius: 10rpx;
+  -webkit-box-shadow: 0rpx 5rpx 20rpx rgba(0, 0, 0, 0.05);
+          box-shadow: 0rpx 5rpx 20rpx rgba(0, 0, 0, 0.05);
   font-size: 36rpx;
   background-color: #f1f1f1;
   color: 333;
@@ -177,7 +179,8 @@
 .pay .btn.data-v-0aafd81a {
   width: 90%;
   height: 80rpx;
-  border-radius: 12rpx;
+  -webkit-border-radius: 12rpx;
+          border-radius: 12rpx;
   display: -webkit-box;
   display: -webkit-flex;
   display: flex;
@@ -189,7 +192,8 @@
           align-items: center;
   color: #fff;
   background: #b4a078;
-  box-shadow: 0rpx 5rpx 10rpx rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 0rpx 5rpx 10rpx rgba(0, 0, 0, 0.2);
+          box-shadow: 0rpx 5rpx 10rpx rgba(0, 0, 0, 0.2);
 }
 .pay .tis.data-v-0aafd81a {
   margin-top: 10rpx;

@@ -58,7 +58,8 @@
   height: 100%;
   overflow: hidden;
   background-color: #fff;
-  border-radius: 20rpx;
+  -webkit-border-radius: 20rpx;
+          border-radius: 20rpx;
   border: 2px solid #e9e7ef;
 }
 .cardBox .top.data-v-0e60cae0 {
@@ -109,7 +110,8 @@
           align-items: center;
   padding: 10rpx;
   background-color: rgba(0, 0, 0, 0.2);
-  border-radius: 10rpx;
+  -webkit-border-radius: 10rpx;
+          border-radius: 10rpx;
   margin-right: 20rpx;
 }
 .cardBox .top .img-top .img-left .img-number .tupian.data-v-0e60cae0 {
@@ -128,7 +130,8 @@
           align-items: center;
   padding: 10rpx;
   background-color: rgba(0, 0, 0, 0.4);
-  border-radius: 10rpx;
+  -webkit-border-radius: 10rpx;
+          border-radius: 10rpx;
 }
 .cardBox .top .img-top .img-left .img-zou .genwozou.data-v-0e60cae0 {
   margin-right: 20rpx;
@@ -136,7 +139,8 @@
 .cardBox .top .img-top .img-right.data-v-0e60cae0 {
   width: 50rpx;
   height: 50rpx;
-  border-radius: 50%;
+  -webkit-border-radius: 50%;
+          border-radius: 50%;
   display: -webkit-box;
   display: -webkit-flex;
   display: flex;
@@ -159,7 +163,8 @@
   height: 120rpx;
   top: 60rpx;
   left: 40rpx;
-  border-radius: 50%;
+  -webkit-border-radius: 50%;
+          border-radius: 50%;
   background-color: #ea2a36;
   display: -webkit-box;
   display: -webkit-flex;
@@ -180,7 +185,8 @@
   height: 120rpx;
   top: 60rpx;
   right: 40rpx;
-  border-radius: 50%;
+  -webkit-border-radius: 50%;
+          border-radius: 50%;
   background-color: #a09e9f;
   display: -webkit-box;
   display: -webkit-flex;
@@ -228,7 +234,8 @@
   -webkit-box-direction: normal;
   -webkit-flex-direction: row;
           flex-direction: row;
-  border-radius: 8rpx;
+  -webkit-border-radius: 8rpx;
+          border-radius: 8rpx;
   margin-right: 15rpx;
 }
 .cardBox .bottom .labelBox .sex.data-v-0e60cae0 {
@@ -245,7 +252,9 @@
   height: 120rpx;
   top: -60rpx;
   right: 50rpx;
-  border-radius: 50%;
+  -webkit-border-radius: 50%;
+          border-radius: 50%;
+  background-image: -webkit-gradient(linear, right top, left bottom, from(#87deff), to(#1faeff));
   background-image: -webkit-linear-gradient(top right, #87deff, #1faeff);
   background-image: linear-gradient(to bottom left, #87deff, #1faeff);
   display: -webkit-box;

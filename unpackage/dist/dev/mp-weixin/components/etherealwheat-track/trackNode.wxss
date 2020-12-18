@@ -57,10 +57,12 @@
   width: 14rpx;
   height: 14rpx;
   background-color: #dcdcdc;
-  border-radius: 50%;
+  -webkit-border-radius: 50%;
+          border-radius: 50%;
 }
 .total-wrap .node-container-left .line-container.data-v-7814244e {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   width: 44rpx;
   display: -webkit-box;
   display: -webkit-flex;
@@ -80,7 +82,8 @@
   -webkit-box-flex: 1;
   -webkit-flex: 1;
           flex: 1;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   padding: 0 10rpx 0 24rpx;
 }
 .total-wrap .node-container-right .node-title.data-v-7814244e {

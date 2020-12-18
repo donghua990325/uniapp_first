@@ -45,7 +45,8 @@ page.data-v-c6b389a2 {
   margin-top: 40rpx;
   padding: 10rpx;
   border: 1rpx solid #DEDEDE;
-  border-radius: 12rpx;
+  -webkit-border-radius: 12rpx;
+          border-radius: 12rpx;
 }
 .list-cell.log-out-btn .cell-tit.data-v-c6b389a2 {
   color: #fa436a;

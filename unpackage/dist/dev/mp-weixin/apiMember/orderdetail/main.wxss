@@ -88,7 +88,8 @@ page.data-v-7a4da3dc {
 }
 .item-c .btn.data-v-7a4da3dc {
   line-height: 33px;
-  border-radius: 2.5px;
+  -webkit-border-radius: 2.5px;
+          border-radius: 2.5px;
   text-align: center;
   margin: 0 7.5px;
   padding: 0 10px;
@@ -208,14 +209,16 @@ page.data-v-7a4da3dc {
 .order-goods .btn-group .service.data-v-7a4da3dc {
   padding: 10rpx 15rpx;
   border: 1rpx solid #ccc;
-  border-radius: 12rpx;
+  -webkit-border-radius: 12rpx;
+          border-radius: 12rpx;
   color: #666;
   font-size: 24rpx;
 }
 .order-goods .btn-group .review.data-v-7a4da3dc {
   padding: 10rpx 15rpx;
   border: 1rpx solid #ccc;
-  border-radius: 12rpx;
+  -webkit-border-radius: 12rpx;
+          border-radius: 12rpx;
   color: #666;
   font-size: 24rpx;
 }
@@ -303,7 +306,8 @@ page.data-v-7a4da3dc {
 .btn-group.bottom .del.data-v-7a4da3dc {
   padding: 10rpx 15rpx;
   border: 1rpx solid #ccc;
-  border-radius: 12rpx;
+  -webkit-border-radius: 12rpx;
+          border-radius: 12rpx;
   color: #666;
   font-size: 24rpx;
 }
@@ -364,7 +368,8 @@ page.data-v-7a4da3dc {
   height: 8rpx;
   width: 8rpx;
   background: #b4282d;
-  border-radius: 50%;
+  -webkit-border-radius: 50%;
+          border-radius: 50%;
   margin-top: 11rpx;
 }
 .common-problem .b .item .question-box .question.data-v-7a4da3dc {
@@ -463,7 +468,8 @@ page.data-v-7a4da3dc {
   margin-top: -20px;
   margin-left: 5px;
   border: 1rpx solid #ccc;
-  border-radius: 12rpx;
+  -webkit-border-radius: 12rpx;
+          border-radius: 12rpx;
   color: #666;
   font-size: 24rpx;
   float: right;
@@ -472,7 +478,8 @@ page.data-v-7a4da3dc {
   padding: 10rpx 15rpx;
   margin-top: -20px;
   border: 1rpx solid #ccc;
-  border-radius: 12rpx;
+  -webkit-border-radius: 12rpx;
+          border-radius: 12rpx;
   color: #666;
   font-size: 24rpx;
   float: right;

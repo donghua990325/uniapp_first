@@ -77,7 +77,8 @@
   padding: 0 5rpx;
   background: #b4282d;
   margin: 10rpx auto 0 auto;
-  border-radius: 10rpx;
+  -webkit-border-radius: 10rpx;
+          border-radius: 10rpx;
 }
 .order .address .item .addresslist .info.data-v-67b72b3d {
   max-width: 700rpx;
@@ -273,7 +274,8 @@
   width: 688rpx;
   height: 120rpx;
   border: 1px solid #666;
-  border-radius: 10rpx;
+  -webkit-border-radius: 10rpx;
+          border-radius: 10rpx;
   font-size: 28rpx;
   margin: 0 30rpx;
   padding: 10rpx;

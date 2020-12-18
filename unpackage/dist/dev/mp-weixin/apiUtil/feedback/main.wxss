@@ -63,7 +63,8 @@
   text-align: center;
   width: 95%;
   height: 100rpx;
-  border-radius: 10rpx;
+  -webkit-border-radius: 10rpx;
+          border-radius: 10rpx;
   line-height: 100rpx;
   background: #B4282D;
   color: #fff;

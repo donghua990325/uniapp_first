@@ -35,7 +35,8 @@
 }
 .goods .swiper .share.data-v-03a4dd9f {
   position: absolute;
-  border-radius: 40rpx 0 0 40rpx;
+  -webkit-border-radius: 40rpx 0 0 40rpx;
+          border-radius: 40rpx 0 0 40rpx;
   width: 160rpx;
   height: 65rpx;
   line-height: 65rpx;
@@ -52,7 +53,8 @@
   display: block;
   background: #ccc;
   margin: 0 auto;
-  border-radius: 50%;
+  -webkit-border-radius: 50%;
+          border-radius: 50%;
 }
 .goods .swiper .share.data-v-03a4dd9f:after {
   border: none;
@@ -330,7 +332,8 @@
   height: 8rpx;
   width: 8rpx;
   background: #b4282d;
-  border-radius: 50%;
+  -webkit-border-radius: 50%;
+          border-radius: 50%;
   margin-top: 11rpx;
 }
 .goods .common-problem .b .item .question-box .question.data-v-03a4dd9f {
@@ -441,7 +444,8 @@
           transform: translateY(100%);
   -webkit-transition: all 400ms ease;
   transition: all 400ms ease;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   padding: 30rpx;
   background: #fff;
 }
@@ -612,7 +616,8 @@
   display: -webkit-flex;
   display: flex;
   background: none;
-  border-radius: 0;
+  -webkit-border-radius: 0;
+          border-radius: 0;
   -webkit-box-align: center;
   -webkit-align-items: center;
           align-items: center;
@@ -663,7 +668,8 @@
   font-size: 18rpx;
   color: #fff;
   line-height: 28rpx;
-  border-radius: 50%;
+  -webkit-border-radius: 50%;
+          border-radius: 50%;
 }
 .goods .bottom-fixed ._div:nth-child(3) .car ._img.data-v-03a4dd9f {
   display: block;

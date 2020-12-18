@@ -20,12 +20,14 @@
 .total-wrap.data-v-7b81225f {
   width: 100vw;
   height: auto;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   padding: 0rpx 40rpx 0rpx;
 }
 .total-wrap .logistics-title.data-v-7b81225f {
   height: 72rpx;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   padding: 36rpx 0 8rpx;
   line-height: 28rpx;
   color: #4B4B4B;

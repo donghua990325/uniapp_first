@@ -28,7 +28,8 @@
           flex-direction: column;
   background: #fff;
   padding-bottom: 110rpx;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 .address .addcont.data-v-744caa97 {
   height: 100%;

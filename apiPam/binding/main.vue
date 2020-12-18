@@ -34,7 +34,6 @@
           :rotate="isRotate"
           @click.native="startReg()"
         ></wButton>
-
         <view class="tg" @click="href()">跳过</view>
         <!-- <wButton
           text="跳过"
@@ -82,6 +81,7 @@ export default {
     this.openId = getStorageOpenid();
     //获取用户信息
     this.userInfo = getStorageUserInfo();
+	this.pid = uni.getStorageSync("parent_id");
   },
   data() {
     return {
@@ -94,6 +94,7 @@ export default {
       openId: "",
       accesstoken: "",
 	  unionid: "",
+	  pid:''
     };
   },
   components: {
@@ -135,6 +136,7 @@ export default {
 		const data = await nextBingdingMobile({
 		  openid: uni.getStorageSync('openId'),
 		  unionid: uni.getStorageSync('unionid'),
+		  pid:this.pid,
 		  platform: "MP-WEIXIN" // 微信小程序登录
 		});
 		this.user_id = data.data.user_id;
@@ -199,6 +201,7 @@ export default {
         openId: this.openId,
         nickname: this.userInfo.nickName,
         gender: this.userInfo.gender,
+		pid:this.pid,
         avatarUrl: this.userInfo.avatarUrl,
 		unionid: uni.getStorageSync("unionid"),
         tagtype: "weixin",

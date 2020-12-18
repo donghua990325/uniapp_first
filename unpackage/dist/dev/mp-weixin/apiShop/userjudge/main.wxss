@@ -58,7 +58,8 @@ page.data-v-38687909 {
 .btn-group .btn.data-v-38687909 {
   padding: 10rpx 15rpx;
   border: 1rpx solid #ccc;
-  border-radius: 12rpx;
+  -webkit-border-radius: 12rpx;
+          border-radius: 12rpx;
   margin-right: 10rpx;
   display: -webkit-box;
   display: -webkit-flex;
@@ -112,7 +113,8 @@ page.data-v-38687909 {
 .judge-info .desc .title ._img.data-v-38687909 {
   width: 80rpx;
   height: 80rpx;
-  border-radius: 50%;
+  -webkit-border-radius: 50%;
+          border-radius: 50%;
   display: block;
   margin-right: 10rpx;
   background: #f4f4f4;

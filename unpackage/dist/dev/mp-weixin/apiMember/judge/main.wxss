@@ -124,7 +124,8 @@ page.data-v-52c6184c {
 .reback-info .desc textarea.data-v-52c6184c {
   width: 640rpx;
   height: 220rpx;
-  border-radius: 12rpx;
+  -webkit-border-radius: 12rpx;
+          border-radius: 12rpx;
   padding: 5rpx;
   font-size: 24rpx;
 }

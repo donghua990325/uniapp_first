@@ -36,7 +36,8 @@
   position: fixed;
   right: 100%;
   background: #fff;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   -webkit-transform: translateX(-100%);
           transform: translateX(-100%);
   opacity: 0;

@@ -41,7 +41,8 @@
 }
 .index .search.data-v-3120bf0f {
   width: 100%;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   position: fixed;
   z-index: 99;
   height: 80rpx;
@@ -84,9 +85,11 @@
   width: 480rpx;
 
   height: 56rpx;
-  border-radius: 8rpx;
+  -webkit-border-radius: 8rpx;
+          border-radius: 8rpx;
   background: #ededed;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   padding-left: 40rpx;
   font-size: 26rpx;
 }
@@ -169,7 +172,8 @@
   margin-top: 0;
   height: 388rpx;
   background: #fff;
-  box-shadow: 0 10rpx 0 0 #f4f4f4;
+  -webkit-box-shadow: 0 10rpx 0 0 #f4f4f4;
+          box-shadow: 0 10rpx 0 0 #f4f4f4;
 }
 .index .brand.data-v-3120bf0f {
   width: 100%;
@@ -250,7 +254,8 @@
   background: #d8e4f0;
 }
 .index .newgoods .newgoods-top .list.data-v-3120bf0f {
-  border-radius: 0 0 10rpx 10rpx;
+  -webkit-border-radius: 0 0 10rpx 10rpx;
+          border-radius: 0 0 10rpx 10rpx;
   background: #fff;
   padding-top: 0;
 }
@@ -299,7 +304,8 @@
   font-size: 22rpx;
   color: #b4282d;
   border: #b4282d solid 1rpx;
-  border-radius: 13rpx;
+  -webkit-border-radius: 13rpx;
+          border-radius: 13rpx;
   padding: 3rpx 6rpx;
   margin-top: 8rpx;
 }
@@ -395,7 +401,8 @@
   padding: 30rpx 0 10rpx;
   margin: 20rpx 0 0;
   background: #fff;
-  border-radius: 10rpx 10rpx 0 0;
+  -webkit-border-radius: 10rpx 10rpx 0 0;
+          border-radius: 10rpx 10rpx 0 0;
   display: -webkit-box;
   display: -webkit-flex;
   display: flex;
@@ -429,7 +436,8 @@
 .index .newgoods.hotgoods.recommendation .newgoods-top.data-v-3120bf0f {
   height: 260rpx;
   margin-top: 0;
-  border-radius: 0;
+  -webkit-border-radius: 0;
+          border-radius: 0;
   background: url("https://res.jinjiajin.net/vue-wx/images/bgtopic.png") no-repeat;
   background-size: 100% 100%;
 }
@@ -450,7 +458,8 @@
   background: #f4e9cb;
 }
 .index .newgoods.hotgoods.recommendation .list.data-v-3120bf0f {
-  border-radius: 0 0 10rpx 10rpx;
+  -webkit-border-radius: 0 0 10rpx 10rpx;
+          border-radius: 0 0 10rpx 10rpx;
   background: #fff;
 }
 .index .newgoods.hotgoods.recommendation .list ._ul .scroll-view.data-v-3120bf0f {
@@ -500,7 +509,8 @@
   font-size: 22rpx;
   color: #b4282d;
   border: #b4282d solid 1rpx;
-  border-radius: 13rpx;
+  -webkit-border-radius: 13rpx;
+          border-radius: 13rpx;
   padding: 3rpx 6rpx;
   margin-top: 8rpx;
 }
@@ -533,7 +543,8 @@
   padding: 30rpx 0  10rpx;
   margin: 20rpx 0 0;
   background: #fff;
-  border-radius: 10rpx 10rpx 0 0;
+  -webkit-border-radius: 10rpx 10rpx 0 0;
+          border-radius: 10rpx 10rpx 0 0;
   display: -webkit-box;
   display: -webkit-flex;
   display: flex;
@@ -564,7 +575,8 @@
 .index .newgoods.hotgoods.recommendation.block .newgoods-top.data-v-3120bf0f {
   height: 260rpx;
   margin-top: 0;
-  border-radius: 0;
+  -webkit-border-radius: 0;
+          border-radius: 0;
   background: url("https://res.jinjiajin.net/vue-wx/images/bgtopic.png") no-repeat;
   background-size: 100% 100%;
 }
@@ -585,7 +597,8 @@
   background: #f4e9cb;
 }
 .index .newgoods.hotgoods.recommendation.block .list.data-v-3120bf0f {
-  border-radius: 0 0 10rpx 10rpx;
+  -webkit-border-radius: 0 0 10rpx 10rpx;
+          border-radius: 0 0 10rpx 10rpx;
   background: #fff;
   padding-top: 0;
 }
@@ -644,7 +657,8 @@
   font-size: 22rpx;
   color: #b4282d;
   border: #b4282d solid 1rpx;
-  border-radius: 13rpx;
+  -webkit-border-radius: 13rpx;
+          border-radius: 13rpx;
   padding: 3rpx 6rpx;
   margin-top: 8rpx;
 }
@@ -720,7 +734,8 @@
   display: block;
   width: 575rpx;
   height: 325rpx;
-  border-radius: 10rpx;
+  -webkit-border-radius: 10rpx;
+          border-radius: 10rpx;
 }
 .index .topicList .list .scroll-view ._li .btom.data-v-3120bf0f {
   display: -webkit-box;
@@ -863,7 +878,8 @@
   font-size: 28rpx;
   text-align: center;
   border: 1rpx solid #999;
-  border-radius: 6rpx;
+  -webkit-border-radius: 6rpx;
+          border-radius: 6rpx;
   padding: 8rpx 15rpx;
   margin: 20rpx 30rpx;
 }
@@ -953,7 +969,8 @@
   text-align: center;
   padding: 15rpx 20rpx;
   background: #D51010;
-  border-radius: 20rpx;
+  -webkit-border-radius: 20rpx;
+          border-radius: 20rpx;
   -webkit-flex-shrink: 0;
           flex-shrink: 0;
 }

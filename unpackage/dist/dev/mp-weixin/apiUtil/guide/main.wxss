@@ -66,7 +66,8 @@
   border-width: 1rpx;
   border-color: #ffffff;
   border-style: solid;
-  border-radius: 30rpx;
+  -webkit-border-radius: 30rpx;
+          border-radius: 30rpx;
   font-size: 28rpx;
   padding-top: 5rpx;
   padding-bottom: 5rpx;

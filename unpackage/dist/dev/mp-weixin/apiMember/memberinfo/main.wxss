@@ -37,7 +37,8 @@
   margin-top: 40rpx;
   padding: 10rpx;
   border: 1rpx solid #dedede;
-  border-radius: 12rpx;
+  -webkit-border-radius: 12rpx;
+          border-radius: 12rpx;
 }
 .list-cell.log-out-btn .cell-tit.data-v-6b79b247 {
   color: #fa436a;
@@ -48,6 +49,7 @@
   width: 70rpx;
   height: 70rpx;
   border: 5rpx solid #fff;
-  border-radius: 50%;
+  -webkit-border-radius: 50%;
+          border-radius: 50%;
 }
 

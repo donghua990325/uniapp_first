@@ -986,7 +986,9 @@
 }
 .oBorder {
   /* border: none; */
-  border-radius: 0.12rem;
+  -webkit-border-radius: 0.12rem;
+          border-radius: 0.12rem;
+  -webkit-box-shadow: 0 0 60rpx 0 rgba(43, 86, 112, 0.1);
   box-shadow: 0 0 60rpx 0 rgba(43, 86, 112, 0.1);
 }
 

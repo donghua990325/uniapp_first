@@ -36,7 +36,8 @@
   color: #ab2b2b;
   height: 100%;
   border-bottom: 0.02rem solid #ab2b2b;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 .categoryList .info.data-v-11b3f10f {
   text-align: center;

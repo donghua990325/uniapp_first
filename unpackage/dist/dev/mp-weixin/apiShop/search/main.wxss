@@ -77,7 +77,8 @@
   top: 91rpx;
   left: 0;
   bottom: 0;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   padding: 0 32rpx;
   z-index: 9;
   background: #fff;
@@ -98,7 +99,8 @@
   left: 0;
   bottom: 0;
   background: #fff;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   z-index: 9;
   overflow-y: scroll;
   -webkit-overflow-scrolling: touch;
@@ -144,7 +146,8 @@
           flex-wrap: wrap;
 }
 .search .goodsList .sortlist .item.data-v-d650187a {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   width: 50%;
   text-align: center;
   background: #fff;

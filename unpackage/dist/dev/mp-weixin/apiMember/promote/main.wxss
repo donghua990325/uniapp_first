@@ -80,7 +80,8 @@
 .banner.data-v-557e8111 {
   width: 100%;
   background-color: #FFFFFF;
-  border-radius: 60rpx 60rpx 0 0;
+  -webkit-border-radius: 60rpx 60rpx 0 0;
+          border-radius: 60rpx 60rpx 0 0;
   margin-top: -60rpx;
 }
 .banner ._dl.data-v-557e8111 {
@@ -92,7 +93,8 @@
 .banner ._dl ._dt image.data-v-557e8111 {
   width: 160rpx;
   height: 160rpx;
-  border-radius: 50%;
+  -webkit-border-radius: 50%;
+          border-radius: 50%;
 }
 .banner ._dl ._dd.data-v-557e8111 {
   text-align: center;
@@ -114,7 +116,8 @@
   line-height: 60rpx;
   margin: 0 auto;
   margin-top: 60rpx;
-  border-radius: 40rpx;
+  -webkit-border-radius: 40rpx;
+          border-radius: 40rpx;
   border: 0;
   font-size: 26rpx;
   outline: 0;
@@ -131,7 +134,8 @@
 }
 .bottom ._ul.data-v-557e8111 {
   padding-left: 40rpx;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 .bottom ._ul ._li.data-v-557e8111 {
   width: 100%;

@@ -200,13 +200,15 @@ page.data-v-0b73e7ce {
 .order-goods .btn-group .service.data-v-0b73e7ce {
   padding: 10rpx 15rpx;
   border: 1rpx solid #ccc;
-  border-radius: 12rpx;
+  -webkit-border-radius: 12rpx;
+          border-radius: 12rpx;
   color: #666;
 }
 .order-goods .btn-group .review.data-v-0b73e7ce {
   padding: 10rpx 15rpx;
   border: 1rpx solid #ccc;
-  border-radius: 12rpx;
+  -webkit-border-radius: 12rpx;
+          border-radius: 12rpx;
   color: #666;
 }
 .reback-info.data-v-0b73e7ce {
@@ -217,7 +219,8 @@ page.data-v-0b73e7ce {
 }
 .reback-info .reason.data-v-0b73e7ce {
   display: block;
-  border-radius: 12rpx;
+  -webkit-border-radius: 12rpx;
+          border-radius: 12rpx;
   font-size: 25rpx;
   margin: 0 30rpx;
 }
@@ -231,7 +234,8 @@ page.data-v-0b73e7ce {
   height: 200rpx;
   font-size: 24rpx;
   border: 1rpx solid #ccc;
-  border-radius: 12rpx;
+  -webkit-border-radius: 12rpx;
+          border-radius: 12rpx;
   padding: 10rpx;
 }
 .reback-addr.data-v-0b73e7ce {
@@ -451,7 +455,8 @@ page.data-v-0b73e7ce {
 }
 .reback-info .reason.data-v-0b73e7ce {
   display: block;
-  border-radius: 12rpx;
+  -webkit-border-radius: 12rpx;
+          border-radius: 12rpx;
   font-size: 25rpx;
   margin: 0 30rpx;
 }
@@ -465,7 +470,8 @@ page.data-v-0b73e7ce {
   height: 200rpx;
   font-size: 24rpx;
   border: 1rpx solid #ccc;
-  border-radius: 12rpx;
+  -webkit-border-radius: 12rpx;
+          border-radius: 12rpx;
   padding: 10rpx;
 }
 

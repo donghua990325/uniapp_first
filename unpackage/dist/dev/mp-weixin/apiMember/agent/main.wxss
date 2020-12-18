@@ -63,7 +63,8 @@
 .agent .t_01_1 ._img.data-v-44e6abac {
   width: 30px;
   height: 30px;
-  border-radius: 30px;
+  -webkit-border-radius: 30px;
+          border-radius: 30px;
 }
 .agent .t ._li.data-v-44e6abac:nth-of-type(odd) {
   background-color: #EEEEEE;

@@ -80,7 +80,7 @@
 	  <div class="newgoods">
 	    <div class="sortlist">
 	      <div
-	        @click="goodsDetail(item.id)"
+	        @click="goodsDetail(item.id,item.goods_id)"
 	        v-for="(item, index) in historyGoods"
 	        :key="index"
 	        class="item"
@@ -472,10 +472,16 @@ export default {
     },
     change(e) {},
 	//点击进入详情
-	goodsDetail(id) {
-	  uni.navigateTo({
-	    url: "/apiShop/goods/main?id=" + id,
-	  });
+	goodsDetail(id,goods_id) {
+		if(id==undefined){
+			uni.navigateTo({
+			  url: "/apiShop/goods/main?id=" + goods_id,
+			});
+		}else{
+			uni.navigateTo({
+			  url: "/apiShop/goods/main?id=" + id,
+			});
+		}
 	},
     async changeColor(index, id) {
       console.info(index);
